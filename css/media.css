@@ -1,0 +1,231 @@
+@media screen and (max-width: 1165px) {
+    .stop-unraveling-sides-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .advantages {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .questions-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .questions-bnt {
+        position: static;
+        margin-bottom: 20px;
+        
+    }
+    .questions-right-side {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .questions,
+    .questions-wrapper {
+        height: auto;
+    }
+    .top-btns-wrapper {
+        flex-wrap: wrap;
+    }
+    .top-left-headphones {
+        width: 83.98px;
+        height: 94.435px;
+        left: 5%;
+        top: -87px;
+    }
+    .top-right-headphones {
+        width: 81px;
+        height: 93px;
+        right: 5%;
+        top: -468px;
+        background-size: cover;
+    }
+    .burger{
+        position: relative;
+        left: 10px;
+    }
+    .menu {
+        width: 100%;
+        top: -40px;
+        left: 0;
+    }
+    .video-reviews-slider {
+        width: 100%;
+        left: 0px;
+    }
+    }
+
+    @media screen and (max-width: 810px) {
+        
+        .user-reviews-slider {
+            width: 100%;
+        }
+        .user-reviews-slider-item-in {
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .user-reviews-slider-wrapper-in {
+            position: static;
+        }
+        .user-reviews-slider-wrapper {
+            position: static;
+        }
+        .user-reviews-slider-item {
+            height: auto;
+        }
+        .user-reviews-wrapper_tabs {
+            height: auto;
+        }
+        .give-feedback {
+            margin: 50px 0px;
+        }
+        .user-reviews-tabs {
+            flex-wrap: wrap;
+        }
+        .user-reviews-tab {
+        
+            margin: 20px 5px;
+        }
+        .user-review-who-wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .user-reviews-slider-item-left img {
+            margin: 5px;
+        }
+        .user-reviews-slider-item {
+            margin-right: auto;
+        }
+        .user-reviews-block-article {
+            font-size: 40px;
+        }
+}
+        
+
+    
+@media screen and (max-width: 768px) {
+    .mobile-tel {
+        display: block;
+        position: relative;
+        bottom: 6px;
+        right: 10px;
+    }
+    .header-right-info {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .header-right-side {
+        justify-content: flex-end;
+    }
+    .funny-ppl-text {
+        width: 300px;
+        left: 50%;
+        margin-left: -150px;
+        
+        }
+        .dont-need {
+            font-size: 42px;
+        }
+        .free-test-drive-btn-wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .price-sale-wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .sale-price {
+            position: static;
+        }
+        .how-much-with-sale {
+            position: static;
+        }
+        .complect-and-free-wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .complect {
+            margin-bottom: 15px;
+        }
+        .purole-elipse-yandex-music-wrapper2 {
+            display: none;
+        }
+        .what-to-choose {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .what-to-choose-button {
+            margin: 20px 0px;
+        }
+        .what-to-choose {
+            height: auto;
+        }
+        .map-info-wrapper,
+        .map-info-wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+@media screen and (max-width: 638px) { 
+    .buy-btn-sale {
+        margin-bottom: 15px;
+    }
+
+   }   
+@media screen and (max-width: 565px) {
+    .free-test-drive {
+        margin-bottom: 50px;
+    }
+    .header {
+        height: 1020px;
+    }
+    .purole-elipse-yandex-music {
+        top: 695px;
+        left: 50%;
+        margin-left: -75px;
+    }
+    .powerless-headphones {
+        font-size: 42px;
+    }
+    .reasons-to-love-them-cart-wrapper {
+        justify-content: center;
+    }
+    .free-test-drive-text {
+        width: 100%;
+    }
+    .free-test-drive-btn {
+        width: 290px;
+    }
+    .free-test-drive-article {
+        width: 100%;
+        font-size: 42px;
+    }
+    .sound-drop img {
+        width: 100%;
+    }
+    .footer-bottom,
+    .footer-top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .stop-unraveling-right {
+    padding: 0px;
+    }
+    .stop-unraveling-item-slider {
+        width: 280px;
+    }
+    .stop-unraveling-item-slider img {
+        width: 100%;
+    }
+    .menu ul li a {
+        font-size: 26px;
+    }
+}
+

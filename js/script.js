@@ -21,20 +21,11 @@ $('.video-reviews-slider').slick({
 	centerPadding: '60px',
 	responsive: [
 	  {
-		breakpoint: 768,
+		breakpoint: 1170,
 		settings: {
 		  arrows: false,
-		  centerMode: true,
-		  centerPadding: '40px',
-		  slidesToShow: 3
-		}
-	  },
-	  {
-		breakpoint: 480,
-		settings: {
-		  arrows: false,
-		  centerMode: true,
-		  centerPadding: '40px',
+		  dots: false,
+		  centerMode: false,
 		  slidesToShow: 1
 		}
 	  }
@@ -147,7 +138,23 @@ $(".user-reviews-wrapper_tabs .user-reviews-tab").click(function() {
 	speed: 300,
 	slidesToShow: 2,
 	slidesToScroll: 1,
+	responsive: [
+		{
+		  breakpoint: 810,
+		  settings: {
+			arrows: false,
+			slidesToShow: 1
+		  }
+		}
+	  ]
+	});
+
+
+  $('.questions-arrow').click(function(){
+    $(this).find('~ .questions-text').toggle('fast')
   });
+
+
 
   $('.burger').click(function(){
     $('.menu').css({'display':'block'})
@@ -155,3 +162,5 @@ $(".user-reviews-wrapper_tabs .user-reviews-tab").click(function() {
   $('.close-menu').click(function(){
     $('.menu').css({'display':'none'})
   });
+
+  questions-arrow

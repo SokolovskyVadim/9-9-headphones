@@ -1090,6 +1090,8 @@ nav {
 }
 .free-test-drive-block-in {
     display: flex;
+    position: relative;
+    z-index: 10;
 }
 .test-drive-girl-wrapper {
     position: relative;
@@ -1101,7 +1103,6 @@ nav {
     right: 245px;
 }
 .stop-unraveling-block {
-    height: 1398px;
     background: #F9F9F9;
 }
 .stop-unraveling-article {
@@ -1571,7 +1572,6 @@ color: #181818;
 }
 
 .user-reviews-block {
-    height: 936px;
     left: 0px;
     top: 7336px;
     background: #F9F9F9;
@@ -1773,9 +1773,11 @@ color: #181818;
     color: #181818;
     background: transparent;
     cursor: pointer;
+    margin-bottom: 160px;
 }
 .questions-wrapper {
     display: flex;
+    height: 765px;
 }
 .questions {
     height: 765px;
@@ -1785,9 +1787,10 @@ color: #181818;
 }
 .questions-item {
     border: 1px solid rgba(255, 255, 255, 0.4);
+    background:#1E1E1E;
     box-sizing: border-box;
     border-radius: 3px;
-    width: 580px;
+    max-width: 580px;
     padding: 22px 30px;
     position: relative;
     margin: 25px 0px;
@@ -1854,13 +1857,12 @@ color: #FFFFFF;
     width: 296px;
     height: 75px;
     position: absolute;
-    bottom: 0px;
+    bottom: 115px;
     right: 0;
 }
 .map { 
     background: url('../images/map.png') no-repeat center,
                 white;
-    height: 697px;
 }
 .map-article {
     font-style: normal;
@@ -1955,7 +1957,7 @@ border-bottom: 1px solid white;
 
 }
 .footer-bottom-second-div {
-    position: absolute;
+    position: relative;
     right: 32px;
 }
 .menu {
@@ -1996,4 +1998,14 @@ font-size: 40px;
 line-height: 50px;
 cursor: pointer;
 color: #FFFFFF;
+}
+.mobile-tel {
+    height: 30px;
+    opacity: 0.3;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 33px;
+    display: none;
 }
