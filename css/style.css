@@ -1194,11 +1194,20 @@ nav {
     background: #E43A15;
 }
 /* slider2 */
+.stop-unraveling-item-sliders-wrapper {
+    position: relative;
+}
+.stop-unraveling-item-slider-wrapper-w,
+.stop-unraveling-item-slider-wrapper {
+    position: absolute;
+    left: 75px;
+    width: 359px;
+}
 /* slider2w */
 .stop-unraveling-item-slider-w {
     max-width: 359px;
     margin: 0 auto;
-    display: none;
+   visibility: hidden;
 }
 .stop-unraveling-item-slider-w .slick-dots li button {
     background: white;
@@ -1870,7 +1879,7 @@ color: #FFFFFF;
     font-size: 54px;
     line-height: 64px;
     color: #181818;
-    margin: 75px 0px 102px 0px;
+    padding: 75px 0px 102px 0px;
 }
 .map-info-wrapper {
     display: flex;

@@ -218,8 +218,18 @@
     .stop-unraveling-right {
     padding: 0px;
     }
+    
+    .stop-unraveling-right-w {
+        padding: 0px;
+        }
     .stop-unraveling-item-slider {
         width: 280px;
+    }
+    .stop-unraveling-item-slider-w {
+        width: 280px;
+    }
+    .stop-unraveling-item-slider-w img {
+        width: 100%;
     }
     .stop-unraveling-item-slider img {
         width: 100%;

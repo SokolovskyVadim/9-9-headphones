@@ -94,28 +94,39 @@ $('.video-reviews-slider').slick({
 	$(this).addClass("active");
   });
 
+  $("#white-images-btn").click(function(){
+	$("#white-images").css({'visibility':'visible'});
+	$("#black-images").css({'visibility':'hidden'});
+  });
 
-var whiteImagesBtn = document.getElementById('white-images-btn');
-if(whiteImagesBtn != null) {
-	whiteImagesBtn.onclick = function getModal() {
-	var whiteImages = document.getElementById('white-images')
-	var blackImages = document.getElementById('black-images')
+  $("#black-images-btn").click(function(){
+	$("#black-images").css({'visibility':'visible'});
+	$("#white-images").css({'visibility':'hidden'});
+  });
 
-		blackImages.style.display = 'none';
-		whiteImages.style.display = 'block';
-		
-	}
-}
-var blackImagesBtn = document.getElementById('black-images-btn');
-if(blackImagesBtn != null) {
-	blackImagesBtn.onclick = function getModal() {
-	var whiteImages = document.getElementById('white-images')
-	var blackImages = document.getElementById('black-images')
+// var whiteImagesBtn = document.getElementById('white-images-btn');
+// if(whiteImagesBtn != null) {
+// 	whiteImagesBtn.onclick = function getModal() {
+// 	var whiteImages = document.getElementById('white-images')
+// 	var blackImages = document.getElementById('black-images')
 
-		whiteImages.style.display = 'none';
-		blackImages.style.display = 'block';
-	}
-}
+// 		blackImages.style.visibility = 'hidden';
+// 		whiteImages.style.visibility = 'visible';
+			
+// 	}
+// }
+// var blackImagesBtn = document.getElementById('black-images-btn');
+// if(blackImagesBtn != null) {
+// 	blackImagesBtn.onclick = function getModal() {
+// 	var whiteImages = document.getElementById('white-images')
+// 	var blackImages = document.getElementById('black-images')
+
+// 		whiteImages.style.visibility = 'hidden';
+// 		blackImages.style.visibility = 'visible';
+// 	}
+// }
+
+
 
 $(window).scroll(function () { 
 	var scroll_position = $(window).scrollTop();
