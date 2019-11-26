@@ -1,3 +1,12 @@
+$(window).scroll(function () { 
+	var scroll_emerging_header = $(window).scrollTop();
+	if (scroll_emerging_header > 300) {
+		$('.emerging-header').css({'transform':'translateY(0px)'});
+	} else {
+		$('.emerging-header').css({'transform':'translateY(-110px)'});
+	}
+});
+
 var rellax = new Rellax('.rellax');
 
 var window_width = $(window).width();
@@ -137,11 +146,11 @@ $(window).scroll(function () {
 	}
 });
 
-$(".user-reviews-tab_item").not(":first").hide();
-$(".user-reviews-wrapper_tabs .user-reviews-tab").click(function() {
-	$(".user-reviews-wrapper_tabs .user-reviews-tab").removeClass("active").eq($(this).index()).addClass("active");
-	$(".user-reviews-tab_item").hide().eq($(this).index()).fadeIn()
-}).eq(0).addClass("active");
+// $(".user-reviews-tab_item").not(":first").hide();
+// $(".user-reviews-wrapper_tabs .user-reviews-tab").click(function() {
+// 	$(".user-reviews-wrapper_tabs .user-reviews-tab").removeClass("active").eq($(this).index()).addClass("active");
+// 	$(".user-reviews-tab_item").hide().eq($(this).index()).fadeIn()
+// }).eq(0).addClass("active");
 
 
   $('.user-reviews-slider').slick({
@@ -174,4 +183,100 @@ $(".user-reviews-wrapper_tabs .user-reviews-tab").click(function() {
     $('.menu').css({'display':'none'})
   });
 
-  questions-arrow
+  $('.user-reviews-video-slider').slick({
+	dots: true,
+	arrows: true,
+	speed: 300,
+	slidesToShow: 3,
+	slidesToScroll: 1,
+	autoplay: false,
+	infinite: true,
+	responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			infinite: true,
+			dots: true
+		  }
+		},
+		{
+		  breakpoint: 600,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 1
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		  }
+		}
+		// You can unslick at a given breakpoint now by adding:
+		// settings: "unslick"
+		// instead of a settings object
+	  ]
+  });
+
+  $("#user-reviews-tab-1").click(function(){
+	$("#user-reviews-tab_item-1-wrapper").css({'visibility':'visible'});
+	$("#user-reviews-tab_item-2-wrapper").css({'visibility':'hidden'});
+	$("#user-reviews-tab_item-3-wrapper").css({'visibility':'hidden'});
+  });
+
+  $("#user-reviews-tab-2").click(function(){
+	$("#user-reviews-tab_item-1-wrapper").css({'visibility':'hidden'});
+	$("#user-reviews-tab_item-2-wrapper").css({'visibility':'visible'});
+	$("#user-reviews-tab_item-3-wrapper").css({'visibility':'hidden'});
+  });
+  $("#user-reviews-tab-3").click(function(){
+	$("#user-reviews-tab_item-1-wrapper").css({'visibility':'hidden'});
+	$("#user-reviews-tab_item-2-wrapper").css({'visibility':'hidden'});
+	$("#user-reviews-tab_item-3-wrapper").css({'visibility':'visible'});
+  });
+
+  $(".user-reviews-tab").click(function(){
+	$(".user-reviews-tab").removeClass("active");
+	$(this).addClass("active");
+  });
+
+  $('.user-reviews-messengers-slider').slick({
+	dots: true,
+	arrows: true,
+	speed: 300,
+	slidesToShow: 4,
+	slidesToScroll: 1,
+	autoplay: false,
+	infinite: true,
+	responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			infinite: true,
+			dots: true
+		  }
+		},
+		{
+		  breakpoint: 600,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 1
+		  }
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		  }
+		}
+		// You can unslick at a given breakpoint now by adding:
+		// settings: "unslick"
+		// instead of a settings object
+	  ]
+  });

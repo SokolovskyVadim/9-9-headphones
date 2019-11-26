@@ -1,3 +1,8 @@
+@media screen and (max-width: 1169px) {
+    .emerging-header {
+        display: none;
+    }
+}
 @media screen and (max-width: 1165px) {
     .stop-unraveling-sides-wrapper {
         flex-wrap: wrap;
@@ -21,7 +26,14 @@
         display: flex;
         justify-content: center;
     }
-    
+    .sale-60-block-wrapper {
+        height: 474px;
+    }
+    .stop-unraveling-item-slider-wrapper-w, .stop-unraveling-item-slider-wrapper {
+        top: 168px;
+        left: 0px;
+        width: 280px;
+    }
     .questions,
     .questions-wrapper {
         height: auto;
@@ -101,6 +113,9 @@
         }
         .user-reviews-block-article {
             font-size: 40px;
+        }
+        .user-reviews-tab_content {
+            height: 730px;
         }
 }
         
