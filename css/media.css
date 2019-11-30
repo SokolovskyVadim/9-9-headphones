@@ -68,6 +68,38 @@
         left: 0px;
     }
     }
+    @media screen and (max-width: 768px) {
+        .wrapper_tabs {
+            width: 300px;
+            left: 50%;
+            margin-left: -150px;
+            overflow: scroll;
+            
+        }
+        .connection-block {
+            padding-top: 204px;
+        }
+        .auto-connection-1s {
+            flex-wrap: wrap;
+        }
+        .connection-block-bg-bluetooth {
+            height: auto;
+        }
+        .tabs {
+            flex-wrap: wrap;
+        }
+        .connection-block-bg-img1 {
+            left: 5px;
+        }
+        .connection-block-bg-img2 {
+            right: 5px;
+            top: -129px;
+        }
+        .connection-block-bg-bluetooth-in {
+            margin-right:0px;
+            text-align: center;
+        }
+    }
 
     @media screen and (max-width: 810px) {
         

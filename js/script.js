@@ -445,7 +445,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.complect-modal').click(function(e) {
-		if ($(e.target).closest('.complect-modal').length == 0) {
+		if ($(e.target).closest('.complect-modal-in').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
@@ -470,7 +470,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.give-number-modal').click(function(e) {
-		if ($(e.target).closest('.give-number-modal').length == 0) {
+		if ($(e.target).closest('.give-number-modal-in').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
@@ -497,7 +497,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.thanks-number-modal').click(function(e) {
-		if ($(e.target).closest('.thanks-number-modal').length == 0) {
+		if ($(e.target).closest('.thanks-number-modal-in').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
@@ -522,7 +522,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.give-number-modal-buy').click(function(e) {
-		if ($(e.target).closest('.give-number-modal-buy').length == 0) {
+		if ($(e.target).closest('.give-number-modal-buy-in').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
@@ -547,7 +547,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.serial-number-modal-buy').click(function(e) {
-		if ($(e.target).closest('.serial-number-modal-buy').length == 0) {
+		if ($(e.target).closest('.serial-number-modal-buy-in').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
@@ -573,7 +573,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.question-modal-buy').click(function(e) {
-		if ($(e.target).closest('.question-modal-buy').length == 0) {
+		if ($(e.target).closest('.question-modal-buy-in').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
@@ -663,7 +663,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.review-modal-buy').click(function(e) {
-		if ($(e.target).closest('.review-modal-buy').length == 0) {
+		if ($(e.target).closest('.review-modal-buy-in').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
@@ -687,7 +687,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.youtube-modal-buy').click(function(e) {
-		if ($(e.target).closest('.youtube-modal-buy').length == 0) {
+		if ($(e.target).closest('.youtube-modal-buy-in').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
@@ -711,7 +711,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.official-modal-buy').click(function(e) {
-		if ($(e.target).closest('.official-modal-buy').length == 0) {
+		if ($(e.target).closest('.official-modal-buy-in').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
