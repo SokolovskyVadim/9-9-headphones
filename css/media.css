@@ -91,9 +91,9 @@
     }
     @media screen and (max-width: 768px) {
         .wrapper_tabs {
-            width: 300px;
+            width: 310px;
             left: 50%;
-            margin-left: -150px;
+            margin-left: -155px;
             overflow: scroll;
             height: 500px;
             height: 500px;
@@ -142,9 +142,9 @@
             margin: 0 auto;
         }
         .question-modal-in-buy {
-            width: 300px;
+            width: 310px;
             left: 50%;
-            margin-left: -150px;
+            margin-left: -155px;
             display: flex;
             flex-wrap: wrap;
             overflow: scroll;
@@ -257,18 +257,18 @@
             height: auto;
         }
         .youtube-modal-in-buy {
-            width: 300px;
-            margin-left: -150px;
+            width: 310px;
+            margin-left: -155px;
             padding: 48px 0px;
         }
         .youtube-modal-in-buy iframe {
-            width: 300px;
+            width: 310px;
         }
         .give-number-modal-in-buy {
-            width: 300px;
-            margin-left: -150px;
+            width: 310px;
+            margin-left: -160px;
             background: #FFFFFF;
-            padding: 10px;
+            padding: 5px;
         }
         .alina-name-block {
             display: none;
@@ -278,8 +278,8 @@
             padding: 5px;
         }
         .complect-modal-in {
-            width: 300px;
-            margin-left: -150px;
+            width: 310px;
+            margin-left: -155px;
             height: 500px;
             overflow: scroll;
         }
@@ -319,9 +319,9 @@
             top: 185px;
         }
         .comparison-modal {
-            width: 300px;
+            width: 310px;
             left: 50%;
-            margin-left: -150px;
+            margin-left: -155px;
             height: 500px;
             overflow: scroll;
         }
@@ -346,9 +346,9 @@
             flex-wrap: wrap;
         }
         .review-modal-in-buy {
-            width: 300px;
+            width: 310px;
             left: 50%;
-            margin-left: -150px;
+            margin-left: -155px;
             height: 500px;
             overflow: scroll;
         }
@@ -370,8 +370,8 @@
             left: 43px;
         }
         .official-modal-in-buy {
-            width: 300px;
-            margin-left: -150px;
+            width: 310px;
+            margin-left: -155px;
             padding: 5px;
             background: white;
         }
@@ -426,7 +426,7 @@
             height: 730px;
         }
 }
-        
+
 
     
 @media screen and (max-width: 768px) {
@@ -446,9 +446,9 @@
         justify-content: flex-end;
     }
     .funny-ppl-text {
-        width: 300px;
+        width: 310px;
         left: 50%;
-        margin-left: -150px;
+        margin-left: -155px;
         
         }
         .dont-need {
@@ -495,15 +495,16 @@
             margin: 10px;
         }
         .give-number-modal-in {
-            width: 300px;
-            margin-left: -150px;
+            width: 310px;
+            margin-left: -155px;
             height: 500px;
             overflow: scroll;
             background: white;
+            padding: 5px;
         }
         .serial-number-modal-in-buy {
-            width: 300px;
-            margin-left: -150px;
+            width: 310px;
+            margin-left: -155px;
             height: 500px;
             overflow: scroll;
             background: white;
@@ -528,6 +529,15 @@
         }
         .who-sell-it-in {
             flex-wrap: wrap;
+        }
+        .thanks-number-modal-in{
+            width: 310px;
+                margin-left: -155px;
+                padding: 5px;
+            }
+        .reasons-to-love-them-btn-all {
+            margin: 0 auto;
+            display: block;
         }
     }
 

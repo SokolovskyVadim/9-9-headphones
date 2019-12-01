@@ -529,7 +529,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.give-number-modal-buy').click(function(e) {
-		if ($(e.target).closest('.give-number-modal-buy-in').length == 0) {
+		if ($(e.target).closest('.give-number-modal-in-buy').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
@@ -554,7 +554,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.serial-number-modal-buy').click(function(e) {
-		if ($(e.target).closest('.serial-number-modal-buy-in').length == 0) {
+		if ($(e.target).closest('.serial-number-modal-in-buy').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
@@ -580,7 +580,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.question-modal-buy').click(function(e) {
-		if ($(e.target).closest('.question-modal-buy-in').length == 0) {
+		if ($(e.target).closest('.question-modal-in-buy').length == 0) {
 			$(this).fadeOut();					
 		}
 	});
