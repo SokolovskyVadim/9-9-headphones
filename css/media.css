@@ -539,6 +539,9 @@
             margin: 0 auto;
             display: block;
         }
+        .group-vectors {
+            display: none;
+        }
     }
 
 @media screen and (max-width: 638px) { 
