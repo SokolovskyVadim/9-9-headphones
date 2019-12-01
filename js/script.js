@@ -7,13 +7,22 @@ $(window).scroll(function () {
 	}
 });
 
+$(window).scroll(function () { 
+	var scroll_emerging_header_2 = $(window).scrollTop();
+	if (scroll_emerging_header_2 > 300) {
+		$('.emerging-header-mobile').css({'transform':'translateY(0px)'});
+	} else {
+		$('.emerging-header-mobile').css({'transform':'translateY(-110px)'});
+	}
+});
+
 var rellax = new Rellax('.rellax');
 
 var window_width = $(window).width();
     
 $(window).scroll(function () { 
 	var scroll_position = $(window).scrollTop();
-	var object_position_left = (scroll_position*6)*(scroll_position/window_width);
+	var object_position_left = (scroll_position*3)*(scroll_position/window_width);
 	$('#object').css({'right':object_position_left});
 });
 
@@ -53,14 +62,12 @@ $('.video-reviews-slider').slick({
 	  {
 		breakpoint: 768,
 		settings: {
-		  arrows: false,
 		  slidesToShow: 1
 		}
 	  },
 	  {
 		breakpoint: 480,
 		settings: {
-		  arrows: false,
 		  slidesToShow: 1
 		}
 	  }
@@ -79,14 +86,14 @@ $('.video-reviews-slider').slick({
 	  {
 		breakpoint: 768,
 		settings: {
-		  arrows: false,
+		 
 		  slidesToShow: 1
 		}
 	  },
 	  {
 		breakpoint: 480,
 		settings: {
-		  arrows: false,
+		 
 		  slidesToShow: 1
 		}
 	  }
@@ -663,7 +670,7 @@ $(document).ready(function($) {
 	});
 	
 	$('.review-modal-buy').click(function(e) {
-		if ($(e.target).closest('.review-modal-buy-in').length == 0) {
+		if ($(e.target).closest('.review-modal-in-buy').length == 0) {
 			$(this).fadeOut();					
 		}
 	});

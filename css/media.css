@@ -2,8 +2,33 @@
     .emerging-header {
         display: none;
     }
+    .emerging-header-mobile {
+        display: block;
+        background: #FFFFFF;
+        transform: translateY(-110px);
+        position: fixed;
+        top: 0px;
+        left: 0;
+        right: 0px;
+        z-index: 150;
+        transition: 0.5s;
+    }
+    .emerging-header-in-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 16px 0px 23px 0px;
+    }
+    .emerging-price-sale-wrapper-mobile {
+        display: flex;
+        position: relative;
+        width: 300px;
+    }
 }
 @media screen and (max-width: 1165px) {
+    .brief-information {
+        display: none;
+    }
     .stop-unraveling-sides-wrapper {
         flex-wrap: wrap;
         justify-content: center;
@@ -32,7 +57,7 @@
     .stop-unraveling-item-slider-wrapper-w, .stop-unraveling-item-slider-wrapper {
         top: 168px;
         left: 0px;
-        width: 280px;
+        width: 100%;
     }
     .questions,
     .questions-wrapper {
@@ -63,10 +88,6 @@
         top: -40px;
         left: 0;
     }
-    .video-reviews-slider {
-        width: 100%;
-        left: 0px;
-    }
     }
     @media screen and (max-width: 768px) {
         .wrapper_tabs {
@@ -74,13 +95,81 @@
             left: 50%;
             margin-left: -150px;
             overflow: scroll;
-            
+            height: 500px;
+            height: 500px;
         }
         .connection-block {
             padding-top: 204px;
+            height: auto;
         }
         .auto-connection-1s {
             flex-wrap: wrap;
+        }
+        .sound-block {
+            height: auto;
+        }
+        .sound-block-hp-b-1 {
+            top: 0px;
+            left: 20px;
+        }
+        .sound-block-hp-b-2 {
+            top: 0px;
+            left: 80px;
+        }
+        .sound-block-hp-b-3 {
+            top: -99px;
+            left: -31px;
+        }
+        .mobile-inputs {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .inter-number-input {
+            padding: 0px 20px;
+        }
+        .inter-number-button {
+            padding: 0px 20px;
+        }
+        .m-r-s {
+            background: white;
+        }
+        .inter-number-input {
+            max-width: 255px;
+        }
+        
+        .price-w-cupon {
+            margin: 0 auto;
+        }
+        .question-modal-in-buy {
+            width: 300px;
+            left: 50%;
+            margin-left: -150px;
+            display: flex;
+            flex-wrap: wrap;
+            overflow: scroll;
+            height: 500px;
+        }
+        .sound-block-hp-b-card1,
+        .sound-block-hp-b-card2 {   
+            top: 31px;
+            left: 22px;
+        }
+        .sound-block-hp-b-card3 {   
+            top: -43px;
+            left: -159px;
+        }
+        .sound-block-hp-wrapper-l {
+            width: 100px;
+            height: 100px;
+            top: 72px;
+            left: 10px;
+        }
+        .sound-block-hp-wrapper-r {
+            width: 100px;
+            height: 100px;
+            top: 172px;
+            right: 20px;
         }
         .connection-block-bg-bluetooth {
             height: auto;
@@ -98,6 +187,193 @@
         .connection-block-bg-bluetooth-in {
             margin-right:0px;
             text-align: center;
+        }
+        .working-time,
+        .comfort-block {
+            height: auto;
+        }
+        
+        .man-comfort,
+        .black-elipce, 
+        .black-elipce2 {
+            display: none;
+        }
+        .tab-item-comfort-1 {
+            flex-wrap: wrap;
+        }
+        .wrapper-blue-circles-wrapper,
+        .comfort-block-card1 {
+           margin: auto;
+        }
+        .working-time-bloks-wrapper-on {
+            flex-wrap: wrap;
+        }
+        .working-time-bloks-wrapper {
+            justify-content: center;
+        }
+        .big-case-img {
+            display: none;
+        }
+        .case-comfort {
+            display: none;
+        }
+        .comfort-block-card3 {
+            margin: 0 auto;
+        }
+        .tab-item-comfort-2 {
+            flex-wrap: wrap;
+        }
+        .control-block-tabs {
+            flex-wrap: wrap;
+        }
+        .control-block-title2 {
+           width: auto;
+        }
+        .control-block {
+            height: auto;
+        }
+        .control-phones-wrapper {
+            margin: 10px 0px;
+        }
+        .control-block-tab {
+            margin-bottom: 10px;
+        }
+        .control-bot-bg {
+            display: none;
+        }
+        .mic-block {
+            height: auto;
+            padding-top: 213px;
+        }
+        .mic-block-block-wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .mic-block-block1 {
+            margin-right: 0px;
+            margin-bottom: 20px;
+        }
+        .characteristics-block {
+            height: auto;
+        }
+        .youtube-modal-in-buy {
+            width: 300px;
+            margin-left: -150px;
+            padding: 48px 0px;
+        }
+        .youtube-modal-in-buy iframe {
+            width: 300px;
+        }
+        .give-number-modal-in-buy {
+            width: 300px;
+            margin-left: -150px;
+            background: #FFFFFF;
+            padding: 10px;
+        }
+        .alina-name-block {
+            display: none;
+        }
+        .m-r-s,
+        .m-l-s {
+            padding: 5px;
+        }
+        .complect-modal-in {
+            width: 300px;
+            margin-left: -150px;
+            height: 500px;
+            overflow: scroll;
+        }
+        .plus-info-pos {
+            position: absolute;
+            left: 119px;
+            top: 180px;
+        }
+        .plus-info-pos2 {
+            position: absolute;
+            left: 0px;
+            top: 313px;
+        }
+        .plus-info-pos3 {
+            position: absolute;
+            left: 19px;
+            top: 204px;
+        }
+        .plus-info-pos4 {
+            position: absolute;
+            left: 31px;
+            top: 137px;
+        }
+        .plus-info-pos5 {
+            position: absolute;
+            left: 59px;
+            top: 260px;
+        }
+        .plus-info-pos7 {
+            position: absolute;
+            right: 144px;
+            top: 288px;
+        }
+        .plus-info-pos6 {
+            position: absolute;
+            left: 66px;
+            top: 185px;
+        }
+        .comparison-modal {
+            width: 300px;
+            left: 50%;
+            margin-left: -150px;
+            height: 500px;
+            overflow: scroll;
+        }
+        .comparison-modal-tabs {
+            flex-wrap: wrap;
+        }
+        .comparison-modal-tab {
+        margin: 10px;
+        }
+        .comparison-modal-block-to-row1,
+        .comparison-modal-block-article {
+            display: none;
+        }
+        .comparison-modal-block-to-row2,
+        .comparison-modal-block-to-row3 {
+            width: 50%;
+        }
+        .comparison-modal-block-to-row3 {
+            width: 271px;
+        }
+        .review-modal-form-block {
+            flex-wrap: wrap;
+        }
+        .review-modal-in-buy {
+            width: 300px;
+            left: 50%;
+            margin-left: -150px;
+            height: 500px;
+            overflow: scroll;
+        }
+        #upload-container {
+            margin: 0;
+        }
+        .review-modal-form-input {
+            display: block;
+            width: 294px;
+            margin-bottom: 10px;
+        }
+        .review-modal-form-input-big {
+            width: 258px;
+        }
+        .dowload-video {
+            margin: 25px auto;
+            display: inline-block;
+            position: relative;
+            left: 43px;
+        }
+        .official-modal-in-buy {
+            width: 300px;
+            margin-left: -150px;
+            padding: 5px;
+            background: white;
         }
     }
 
@@ -216,7 +492,42 @@
         .map-info-wrapper,
         .map-info-wrapper {
             flex-wrap: wrap;
-            justify-content: center;
+            margin: 10px;
+        }
+        .give-number-modal-in {
+            width: 300px;
+            margin-left: -150px;
+            height: 500px;
+            overflow: scroll;
+            background: white;
+        }
+        .serial-number-modal-in-buy {
+            width: 300px;
+            margin-left: -150px;
+            height: 500px;
+            overflow: scroll;
+            background: white;
+            padding: 5px;
+        }
+        .give-number-modal-article {
+            padding-top: 20px;
+        }
+        .who-sell-it {
+            height: 270px;
+        }
+        .who-sell-it-wrapper {
+            left: 260px;
+        }
+        .who-sell-it-first-slide {
+            width: 212px;
+            position: relative;
+            left: 63px;
+        }
+        .brands-margin {
+            margin-left: 71px;
+        }
+        .who-sell-it-in {
+            flex-wrap: wrap;
         }
     }
 
@@ -283,6 +594,54 @@
     }
     .menu ul li a {
         font-size: 26px;
+    }
+    
+    .stop-unraveling-item-slider .slick-prev,
+    .user-reviews-video-slider .slick-prev,
+    .stop-unraveling-item-slider-w .slick-prev,
+    .user-reviews-messengers-slider .slick-prev {
+        left: -16px;
+    }
+    .user-reviews-video-slider .slick-next,
+    .stop-unraveling-item-slider .slick-next,
+    .stop-unraveling-item-slider-w .slick-next,
+    .user-reviews-messengers-slider .slick-next {
+        right: -15px;
+    }
+    .footer-top div {
+        margin: 10px;
+    }
+    .footer-bottom div {
+        margin: 10px;
+    }
+    .footer-bottom-second-div {
+        right: auto;
+    }
+    .who-sell-it {
+        height: 470px;
+    }
+    .video-reviews-slider {
+        width: 100%;
+        left: 0px;
+        height: 300px;
+    }
+    .emerging-header-in-mobile {
+        justify-content: right;
+    }
+    .emerging-word-i {
+        margin: 0px 5px;
+    }
+    .emerging-sale-price {
+        left: 77px;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    .emerging-sale-price {
+        left: 22px;
+    }
+    .emerging-buy-btn-sale {
+        width: 145px;
     }
 }
 
