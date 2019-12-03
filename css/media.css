@@ -24,6 +24,20 @@
         position: relative;
         width: 300px;
     }
+    .characteristics-cards {
+        background: white;
+    }
+    .wrapper_tabs {
+        height: 86vh;
+        overflow-y: scroll;
+    }
+    .wrapper_tabs::-webkit-scrollbar { width: 3px; height: 3px;}
+    .wrapper_tabs::-webkit-scrollbar-button {  background-color: #666; }
+    .wrapper_tabs::-webkit-scrollbar-track {  background-color: #999;}
+    .wrapper_tabs::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+    .wrapper_tabs::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+    .wrapper_tabs::-webkit-scrollbar-corner { background-color: #999;}
+    .wrapper_tabs::-webkit-resizer { background-color: #666;}
 }
 @media screen and (max-width: 1165px) {
     .brief-information {

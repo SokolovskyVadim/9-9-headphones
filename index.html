@@ -9,11 +9,27 @@
     <link href='fonts/SF UI Display.ttf' rel='stylesheet' type='text/css'>
     <link href='lib/slick/slick.css' rel='stylesheet' type='text/css'>
     <link href='lib/slick/slick-theme.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
+    <div class="menu">
+                <div class="menu-in">
+                    <div class="close-menu">
+                        <img src="images/close.png" alt="">
+                    </div>
+                    <ul>
+                        <li><a href="">О бренде</a></li>
+                        <li><a href="">Продукты</a></li>
+                        <li><a href="">Опт и сотрудничество</a></li>
+                        <li><a href="">Инструкция</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+    </div>
+    <div class="bg-layer"></div>
     <section class="emerging-header">
         <div class="container">
             <div class="emerging-header-in">
@@ -40,6 +56,17 @@
                         </div>
                         <div class="emerging-word-i">
                             <div>i</div>
+                            <div class="emerging-info-hover-block">
+                                    <ul>
+                                        <img src="images/tag-sale.png" alt="" class="emerging-info-hover-block-img">
+                                        <div class="info-hover-span">
+                                            Скидка действует
+                                            на первые 300 пар 
+                                            в честь старта продаж
+                                            в Беларуси
+                                        </div>
+                                    </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="emerging-how-much-with-sale">
@@ -49,17 +76,6 @@
                 <div class="info-hover-block-wrapper">
                     <div class="emerging-header-plus">
                         +
-                    </div>
-                    <div class="emerging-info-hover-block">
-                            <ul>
-                                <img src="images/tag-sale.png" alt="" class="emerging-info-hover-block-img">
-                                <div class="info-hover-span">
-                                    Скидка действует
-                                    на первые 300 пар 
-                                    в честь старта продаж
-                                    в Беларуси
-                                </div>
-                            </ul>
                     </div>
                 </div>
                 <div class="emerging-header-yeadex-music">
@@ -106,6 +122,17 @@
                         <div class="emerging-word-i">
                             <div>i</div>
                         </div>
+                        <div class="emerging-info-hover-block">
+                                <ul>
+                                    <img src="images/tag-sale.png" alt="" class="emerging-info-hover-block-img">
+                                    <div class="info-hover-span">
+                                        Скидка действует
+                                        на первые 300 пар 
+                                        в честь старта продаж
+                                        в Беларуси
+                                    </div>
+                                </ul>
+                        </div>
                     </div>
                     <div class="emerging-how-much-with-sale">
                         Осталось всего 15 пар со скидкой
@@ -122,20 +149,6 @@
                         <div></div>
                         <div></div>
                         <div></div>
-                    </div>
-                    <div class="menu">
-                        <div class="menu-in">
-                            <div class="close-menu">
-                                <img src="images/close.png" alt="">
-                            </div>
-                            <ul>
-                                <li><a href="">О бренде</a></li>
-                                <li><a href="">Продукты</a></li>
-                                <li><a href="">Опт и сотрудничество</a></li>
-                                <li><a href="">Инструкция</a></li>
-                                <li><a href="">Контакты</a></li>
-                            </ul>
-                        </div>
                     </div>
                     <div class="header-right-side">
                         <div class="logo">
@@ -200,10 +213,12 @@
             </div>
             <div class="row">
                 <img src="images/scroll-further.png" alt="scroll-further" class="scroll-further">
-                <div class="play-btn-wrapper youtube-modal-open-buy">
-                    <img src="images/play-btn.png" alt="play-btn" class="play-btn-img">
-                    <div class="play-btn-text">Смотреть видео обзор</div>
-                </div>
+                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="play-btn-text-a">
+                    <div class="play-btn-wrapper">
+                        <img src="images/play-btn.png" alt="play-btn" class="play-btn-img">
+                            <div class="play-btn-text">Смотреть видео обзор</div>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="vectors">
@@ -296,7 +311,7 @@
             </div>
         </div>
     </section>
-    <section class="why-u-like-it">
+    <section class="why-u-like-it" data-parallax="scroll">
 
         <div class="container">
             <div class="and-now">
@@ -311,58 +326,58 @@
             <div class="click-on-plus why__modal" data-id="1">
                 Кликайте на <span>+</span> чтобы узнать почему они такие
             </div>
-            <div class="reasons-to-love-them-cart-wrapper">
+            <div class="reasons-to-love-them-cart-wrapper why__modal" data-id="1">
                 <div class="reasons-to-love-them-cart">
                     <div class="reasons-to-love-them-article">
                         Моментальное<br>
                         подключение
                     </div>
-                    <div class="reasons-to-love-them-btn reasons-to-love-popup why__modal" data-id="1">
+                    <div class="reasons-to-love-them-btn reasons-to-love-popup">
                         Подробнее <span>+</span>
                     </div>
                 </div>
-                <div class="reasons-to-love-them-cart-2">
+                <div class="reasons-to-love-them-cart-2 why__modal" data-id="2">
                     <div class="reasons-to-love-them-article-2">
                         Мощный<br>
                         и чистый звук
                     </div>
-                    <div class="reasons-to-love-them-btn reasons-to-love-popup why__modal" data-id="2">
+                    <div class="reasons-to-love-them-btn reasons-to-love-popup" >
                         Подробнее <span>+</span>
                     </div>
                 </div>
-                <div class="reasons-to-love-them-cart-3">
+                <div class="reasons-to-love-them-cart-3 why__modal" data-id="5">
                     <div class="reasons-to-love-them-article-3">
                         Помогают управлять<br>
                         устройством
                     </div>
-                    <div class="reasons-to-love-them-btn reasons-to-love-popup why__modal" data-id="5">
+                    <div class="reasons-to-love-them-btn reasons-to-love-popup " >
                         Подробнее <span>+</span>
                     </div>
                 </div>
-                <div class="reasons-to-love-them-cart-4">
+                <div class="reasons-to-love-them-cart-4 why__modal" data-id="4">
                     <div class="reasons-to-love-them-article-4">
                         3 часа бесперерывного<br>
                         воспроизведения
                     </div>
-                    <div class="reasons-to-love-them-btn reasons-to-love-popup why__modal" data-id="4">
+                    <div class="reasons-to-love-them-btn reasons-to-love-popup " >
                         Подробнее <span>+</span>
                     </div>
                 </div>
-                <div class="reasons-to-love-them-cart-5">
+                <div class="reasons-to-love-them-cart-5 why__modal" data-id="3">
                     <div class="reasons-to-love-them-article-5">
                         Комфортно<br>
                         общаться
                     </div>
-                    <div class="reasons-to-love-them-btn reasons-to-love-popup why__modal" data-id="3">
+                    <div class="reasons-to-love-them-btn reasons-to-love-popup " >
                         Подробнее <span>+</span>
                     </div>
                 </div>
-                <div class="reasons-to-love-them-cart-6">
+                <div class="reasons-to-love-them-cart-6 why__modal" data-id="6">
                     <div class="reasons-to-love-them-article-6">
                         Удобно носить, каждый<br>
                         день
                     </div>
-                    <div class="reasons-to-love-them-btn reasons-to-love-popup why__modal" data-id="6">
+                    <div class="reasons-to-love-them-btn reasons-to-love-popup">
                         Подробнее <span>+</span>
                     </div>
                 </div>
@@ -384,21 +399,66 @@
     <section class="video-reviews-slider-wrapper">
         <div class="container">
             <div class="video-reviews-slider">
-                <div class="video-reviews-content-wrapper">
-                    <img src="images/wylsacom.png" alt="">
-                </div>
-                <div class="video-reviews-content-wrapper">
-                    <img src="images/wylsacom.png" alt="">
-                </div>
-                <div class="video-reviews-content-wrapper">
-                    <img src="images/wylsacom.png" alt="">
-                </div>
-                <div class="video-reviews-content-wrapper">
-                    <img src="images/wylsacom.png" alt="">
-                </div>
-                <div class="video-reviews-content-wrapper">
-                    <img src="images/wylsacom.png" alt="">
-                </div>
+                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="reviews-video-block">
+                    <div class="video-reviews-content-wrapper">
+                        <img src="images/wylsacom.png" alt="">
+                        <div class="reviews-video-play-2">
+                            <img src="images/play-b.png" alt="">
+                            <img src="images/play-h.png" alt="">
+                        </div>
+                        <div class="reviews-video-play-text">Смотреть видео обзор</div>
+                    </div>
+                </a>
+                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="reviews-video-block">
+                    <div class="video-reviews-content-wrapper">
+                        <img src="images/wylsacom.png" alt="">
+                        <div class="reviews-video-play-2">
+                            <img src="images/play-b.png" alt="">
+                            <img src="images/play-h.png" alt="">
+                        </div>
+                        <div class="reviews-video-play-text">Смотреть видео обзор</div>
+                    </div>
+                </a>
+                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="reviews-video-block">
+                    <div class="video-reviews-content-wrapper">
+                        <img src="images/wylsacom.png" alt="">
+                        <div class="reviews-video-play-2">
+                            <img src="images/play-b.png" alt="">
+                            <img src="images/play-h.png" alt="">
+                        </div>
+                        <div class="reviews-video-play-text">Смотреть видео обзор</div>
+                    </div>
+                </a>
+                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="reviews-video-block">
+                    <div class="video-reviews-content-wrapper">
+                        <img src="images/wylsacom.png" alt="">
+                        <div class="reviews-video-play-2">
+                            <img src="images/play-b.png" alt="">
+                            <img src="images/play-h.png" alt="">
+                        </div>
+                        <div class="reviews-video-play-text">Смотреть видео обзор</div>
+                    </div>
+                </a>
+                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="reviews-video-block">
+                    <div class="video-reviews-content-wrapper">
+                        <img src="images/wylsacom.png" alt="">
+                        <div class="reviews-video-play-2">
+                            <img src="images/play-b.png" alt="">
+                            <img src="images/play-h.png" alt="">
+                        </div>
+                        <div class="reviews-video-play-text">Смотреть видео обзор</div>
+                    </div>
+                </a>
+                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="reviews-video-block">
+                    <div class="video-reviews-content-wrapper">
+                        <img src="images/wylsacom.png" alt="">
+                        <div class="reviews-video-play-2">
+                            <img src="images/play-b.png" alt="">
+                            <img src="images/play-h.png" alt="">
+                        </div>
+                        <div class="reviews-video-play-text">Смотреть видео обзор</div>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
@@ -590,13 +650,24 @@
                             <div class="word-i">
                                 <div>i</div>
                             </div>
+                            <div class="emerging-info-hover-block-2">
+                                    <ul>
+                                        <img src="images/tag-sale.png" alt="" class="emerging-info-hover-block-img">
+                                        <div class="info-hover-span">
+                                            Скидка действует
+                                            на первые 300 пар 
+                                            в честь старта продаж
+                                            в Беларуси
+                                        </div>
+                                    </ul>
+                            </div>
                         </div>
                         <div class="how-much-with-sale">
                             Осталось всего<br>
                             15 пар со скидкой
                         </div>
                     </div>
-                    <div class="installment-plan">
+                    <div class="installment-plan give-number-modal-open-buy">
                         Купить в рассрочку от 8 руб./мес <span>+</span>
                     </div>
                     <div class="complect-and-free-wrapper">
@@ -605,8 +676,8 @@
                         </div>
                         <div class="free-test-drive-in-buy">
                             <span class="free-test-drive-in-buy-text give-number-modal-open-buy">
-                                Бесплатный,<br>
-                                тест-драйв
+                               <div>Бесплатный,</div>
+                                <div>тест-драйв</div>  
                             </span>
                         </div>
                     </div>
@@ -902,7 +973,8 @@
                     </div>
                     <div class="user-reviews-tab_item-2-wrapper" id="user-reviews-tab_item-2-wrapper">
                         <div class="user-reviews-tab_item-2">
-                            <div class="user-reviews-video-slider">
+                            
+                            <!-- <div class="user-reviews-video-slider">
                                 <div class="user-reviews-video-item">
                                     <iframe width="300" height="250" src="https://www.youtube.com/embed/Mb-4T2hpWWI"
                                         frameborder="0"
@@ -931,12 +1003,57 @@
                                         allowfullscreen>
                                     </iframe>
                                 </div>
+                            </div> -->
+                            <div class="reviews-video-slider">
+                                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="reviews-video-block">
+                                 <div class="reviews-video-content">
+                                  <img src="images/rev-video1.png" alt="">
+                                  <div class="reviews-video-play">
+                                   <img src="images/play-b.png" alt="">
+                                   <img src="images/play-h.png" alt="">
+                                  </div>
+                                 </div>
+                                 <div class="reviews-video-name">Отзыв от Святослав Петровский</div>
+                                </a>
+                                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="reviews-video-block">
+                                 <div class="reviews-video-content">
+                                  <img src="images/rev-video2.png" alt="">
+                                  <div class="reviews-video-play">
+                                   <img src="images/play-b.png" alt="">
+                                   <img src="images/play-h.png" alt="">
+                                  </div>
+                                 </div>
+                                 <div class="reviews-video-name">Отзыв от Егора</div>
+                                </a>
+                                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="reviews-video-block">
+                                 <div class="reviews-video-content">
+                                  <img src="images/rev-video3.png" alt="">
+                                  <div class="reviews-video-play">
+                                   <img src="images/play-b.png" alt="">
+                                   <img src="images/play-h.png" alt="">
+                                  </div>
+                                 </div>
+                                 <div class="reviews-video-name">Отзыв от Жеки</div>
+                                </a>
+                                <a data-fancybox href="https://www.youtube.com/watch?v=lPOwqDI4O0A&feature=emb_rel_err" class="reviews-video-block">
+                                 <div class="reviews-video-content">
+                                  <img src="images/rev-video1.png" alt="">
+                                  <div class="reviews-video-play">
+                                   <img src="images/play-b.png" alt="">
+                                   <img src="images/play-h.png" alt="">
+                                  </div>
+                                 </div>
+                                 <div class="reviews-video-name">Отзыв от Святослав Петровский</div>
+                                </a>
                             </div>
+
+
+
                         </div>
                     </div>
                     <div class="user-reviews-tab_item-3-wrapper" id="user-reviews-tab_item-3-wrapper">
                         <div class="user-reviews-tab_item-3">
-                            <div class="user-reviews-messengers-slider">
+                            <!-- <div class="user-reviews-messengers-slider">
 
                                 <div class="user-reviews-messengers-item">
                                     <img src="images/rew1.png" alt="">
@@ -954,7 +1071,45 @@
                                     <img src="images/rew2.png" alt="">
                                 </div>
 
-                            </div>
+                            </div> -->
+                            <div class="reviews-insta-slider">
+                                    <a data-fancybox="gallery" href="images/rev-insta1.png" class="reviews-insta-block">
+                                     <img src="images/rev-insta1.png" alt="">
+                                     <div class="reviews-insta-search">
+                                      <img src="images/search.png" alt="">
+                                      <img src="images/search-h.png" alt="">
+                                     </div>
+                                    </a>
+                                    <a data-fancybox="gallery" href="images/rev-insta2.png" class="reviews-insta-block">
+                                     <img src="images/rev-insta2.png" alt="">
+                                     <div class="reviews-insta-search">
+                                      <img src="images/search.png" alt="">
+                                      <img src="images/search-h.png" alt="">
+                                     </div>
+                                    </a>
+                                    <a data-fancybox="gallery" href="images/rev-insta3.png" class="reviews-insta-block">
+                                     <img src="images/rev-insta3.png" alt="">
+                                     <div class="reviews-insta-search">
+                                      <img src="images/search.png" alt="">
+                                      <img src="images/search-h.png" alt="">
+                                     </div>
+                                    </a>
+                                    <a data-fancybox="gallery" href="images/rev-insta4.png" class="reviews-insta-block">
+                                     <img src="images/rev-insta4.png" alt="">
+                                     <div class="reviews-insta-search">
+                                      <img src="images/search.png" alt="">
+                                      <img src="images/search-h.png" alt="">
+                                     </div>
+                                    </a>
+                                    <a data-fancybox="gallery" href="images/rev-insta1.png" class="reviews-insta-block">
+                                     <img src="images/rev-insta1.png" alt="">
+                                     <div class="reviews-insta-search">
+                                      <img src="images/search.png" alt="">
+                                      <img src="images/search-h.png" alt="">
+                                     </div>
+                                    </a>
+                                </div>
+                        
                         </div>
                     </div>
                 </div>
@@ -1092,8 +1247,8 @@
             </div>
             <div class="footer-bottom">
                 <div class="official-modal-open-buy" style="cursor: pointer;">Реквизиты компании</div>
-                <div class="footer-bottom-second-div" style="cursor: pointer;">Политика конфиденциальности</div>
-                <div style="cursor: pointer;">Разработка сайта — lead me</div>
+                <div class="footer-bottom-second-div conf-modal-open-buy" style="cursor: pointer;">Политика конфиденциальности</div>
+                <div><a href="http://leadme.agency/" target="_blank" class="dev-site">Разработка сайта — lead me</a></div>
             </div>
         </div>
     </footer>
@@ -2101,7 +2256,7 @@
                 <div>
                     <form action="" class="mobile-inputs">
                         <div>
-                            <input type="text" placeholder="Введите ваш номер телефон" class="inter-number-input">
+                            <input type="text" placeholder="Введите ваш номер телефон" id="phone1" class="inter-number-input">
                         </div>
                         <div>
                             <div class="inter-number-button">
@@ -2188,7 +2343,7 @@
                 </div>
                 <div>
                     <form action="">
-                        <input type="text" placeholder="Введите серийный номер" class="inter-number-input">
+                        <input type="text" placeholder="Введите серийный номер" class="inter-number-input-serial">
                         <div>
                             <div class="inter-number-button">
                                 Проверит подлинность
@@ -2202,9 +2357,6 @@
     <div class="question-modal-buy" id="question-modal-buy">
             <div class="question-modal-in-buy">
                 <div class="m-l-s">
-                    <div class="close-question-modal-buy">
-                        <img src="images/black-close.png" alt="black-close">
-                    </div>
                     <div class="give-number-modal-article">
                             Не уходите с пустыми
                             руками!
@@ -2220,7 +2372,7 @@
                         <form action="">
                             <input type="text" placeholder="Введите ваш номер телефон" class="inter-number-input">
                             <div>
-                                <input type="text" placeholder="Введите ваш e-mail" class="inter-number-input">
+                                <input type="text" placeholder="Введите ваш e-mail" class="inter-number-input-mail">
                             </div>
                             <div>
                                 <div class="inter-number-button">
@@ -2229,7 +2381,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="dont-need-it">
+                    <div class="dont-need-it close-question-modal-buy">
                         Мне не нужна скидка 15 руб.<br>
                         и хорошие наушники
                     </div>     
@@ -2290,16 +2442,6 @@
         </div>
     </div>
     
-    <div class="youtube-modal-buy">
-        <div class="youtube-modal-in-buy">
-            <div class="close-youtube-modal-buy">
-                <img src="images/black-close.png" alt="black-close">
-            </div>
-            <div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/oip7pyKZOyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>     
-        </div>
-    </div>
 
     <div class="official-modal-buy">
         <div class="official-modal-in-buy">
@@ -2323,12 +2465,102 @@
             </ul>
         </div>
     </div>
+    
+    <div class="conf-modal-buy">
+        <div class="conf-modal-buy-in">
+            <div class="close-conf-modal-buy">
+                <img src="images/black-close.png" alt="black-close">
+            </div>
+            <div class="politic-article">
+                ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ:
+            </div> 
+            <div class="politic__inner">
+                    <p>
+                       г. Минск	29 июня 2019 года<br>
+                       Настоящая Политика конфиденциальности персональных данных (далее - Политика конфиденциальности) действует в отношении всей информации, размещенной на сайте в сети Интернет по адресу: <a href="" target="_blank">_______</a> (далее - Сайт), которую Администрация Сайта, посетители и другие пользователи Сайта могут получить о Пользователе во время использования Сайта, его сервисов, программ и продуктов. <br>
+                       Использование сервисов Сайта означает безоговорочное согласие Пользователя с настоящей Политикой и указанными в ней условиями обработки его персональной информации; в случае несогласия с этими условиями Пользователь должен воздержаться от использования сервисов, программ и продуктов Сайта. <br>
+                    </p><br>
+                    <h4>1. ОБЩИЕ ПОЛОЖЕНИЯ</h4><br>
+                    <p>
+                       1.1. В рамках настоящей Политики под персональной информацией Пользователя понимаются: <br>
+                       1.1.1. Персональная информация, которую Пользователь предоставляет о себе самостоятельно при регистрации (создании учетной записи) или в процессе использования Сервисов, включая персональные данные Пользователя. Обязательная для предоставления Сервисов информация помечена специальным образом. Иная информация предоставляется Пользователем на его усмотрение. <br>
+                       1.1.2. Данные, которые автоматически передаются сервисам Сайта в процессе их использования с помощью установленного на устройстве Пользователя программного обеспечения, в том числе IP-адрес, данные файлов cookie, информация о браузере Пользователя (или иной программе, с помощью которой осуществляется доступ к сервисам), технические характеристики оборудования и программного обеспечения, используемых Пользователем, дата и время доступа к сервисам, адреса запрашиваемых страниц и иная подобная информация. <br>
+                       1.1.3. Иная информация о Пользователе, обработка которой необходима для использования Сайта. <br>
+                       1.1.4. Настоящая Политика конфиденциальности применяется только к Сайту, указанному в настоящей Политики конфиденциальности. Сайт не контролирует и не несет ответственности за сайты третьих лиц, на которые Пользователь может перейти по ссылкам, доступным на Сайте. <br>
+                    </p><br>
+                    <h4>2. ЦЕЛИ ОБРАБОТКИ ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ ПОЛЬЗОВАТЕЛЕЙ</h4><br>
+                    <p>
+                       2.1. Сайт собирает и хранит только ту персональную информацию, которая необходима для предоставления сервисов или исполнения соглашений и договоров с Пользователем, за исключением случаев, когда законодательством предусмотрено обязательное хранение персональной информации в течение определенного законом срока. <br>
+                       2.2. Персональную информацию Пользователя Сайт обрабатывает в следующих целях: <br>
+                       2.2.1. Идентификации Пользователя, зарегистрированного на Сайте, для предоставления сервисов или исполнения соглашений и договоров с Пользователем. <br>
+                       2.2.2. Предоставления Пользователю доступа к персонализированным ресурсам Сайта. <br>
+                       2.2.3. Установления с Пользователем обратной связи, включая направление уведомлений, запросов, касающихся использования Сайта, оказания услуг, обработку запросов и заявок от Пользователя. <br>
+                       2.2.4. Определения места нахождения Пользователя для обеспечения безопасности, предотвращения мошенничества. <br>
+                       2.2.5. Подтверждения достоверности и полноты персональных данных, предоставленных Пользователем. <br>
+                       2.2.6. Создания учетной записи для Пользователя, если Пользователь дал согласие на создание учетной записи. <br>
+                       2.2.7. Уведомления Пользователя Сайта о предоставляемых сервисах, исполнении соглашений и договоров с Пользователем. <br>
+                       2.2.8. Предоставления Пользователю эффективной клиентской и технической поддержки при возникновении проблем, связанных с использованием Сайта. <br>
+                       2.2.9. Осуществления рекламной деятельности с согласия Пользователя. <br>
+                    </p><br>
+                    <h4>3. УСЛОВИЯ ОБРАБОТКИ ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ ПОЛЬЗОВАТЕЛЕЙ И ЕЕ ПЕРЕДАЧИ ТРЕТЬИМ ЛИЦАМ</h4><br>
+                    <p>
+                       3.1. Сайт хранит персональную информацию Пользователей в соответствии с внутренними регламентами конкретных сервисов. <br>
+                       3.2. В отношении персональной информации Пользователя сохраняется ее конфиденциальность, кроме случаев добровольного предоставления Пользователем информации о себе для общего доступа неограниченному кругу лиц. При использовании отдельных сервисов Пользователь соглашается с тем, что определенная часть его персональной информации становится общедоступной. <br>
+                       3.3. Сайт вправе передать персональную информацию Пользователя третьим лицам в следующих случаях: <br>
+                       3.3.1. Пользователь выразил согласие на такие действия. <br>
+                       3.3.2. Передача необходима для использования Пользователем определенного сервиса либо для исполнения определенного соглашения или договора с Пользователем. <br>
+                       3.3.3. Передача предусмотрена российским или иным применимым законодательством в рамках установленной законодательством процедуры. <br>
+                       3.3.4. В случае продажи Сайта к приобретателю переходят все обязательства по соблюдению условий настоящей Политики применительно к полученной им персональной информации. <br>
+                       3.4. Обработка персональных данных Пользователя осуществляется без ограничения срока любым законным способом, в том числе в информационных системах персональных данных с использованием средств автоматизации или без использования таких средств. Обработка персональных данных Пользователей осуществляется в соответствии с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных». <br>
+                       3.5. При утрате или разглашении персональных данных Администрация Сайта информирует Пользователя об утрате или разглашении персональных данных. <br>
+                       3.6. Администрация Сайта принимает необходимые организационные и технические меры для защиты персональной информации Пользователя от неправомерного или случайного доступа, уничтожения, изменения, блокирования, копирования, распространения, а также от иных неправомерных действий третьих лиц. <br>
+                       3.7. Администрация Сайта совместно с Пользователем принимает все необходимые меры по предотвращению убытков или иных отрицательных последствий, вызванных утратой или разглашением персональных данных Пользователя. <br>
+                    </p><br>
+                    <h4>4. ОБЯЗАТЕЛЬСТВА СТОРОН</h4><br>
+                    <p>
+                       4.1. Пользователь обязан: <br>
+                       4.1.1. Предоставить информацию о персональных данных, необходимую для пользования Сайтом. <br>
+                       4.1.2. Обновлять, дополнять предоставленную информацию о персональных данных в случае изменения данной информации. <br>
+                       4.2. Администрация Сайта обязана: <br>
+                       4.2.1. Использовать полученную информацию исключительно для целей, указанных в настоящей Политике конфиденциальности. <br>
+                       4.2.2. Обеспечить хранение конфиденциальной информации в тайне, не разглашать без предварительного разрешения Пользователя, а также не осуществлять продажу, обмен, опубликование либо разглашение иными возможными способами переданных персональных данных Пользователя, за исключением предусмотренных настоящей Политикой конфиденциальности. <br>
+                       4.2.3. Принимать меры предосторожности для защиты конфиденциальности персональных данных Пользователя согласно порядку, обычно используемому для защиты такого рода информации в существующем деловом обороте. <br>
+                       4.2.4. Осуществить блокирование персональных данных, относящихся к соответствующему Пользователю, с момента обращения или запроса Пользователя или его законного представителя либо уполномоченного органа по защите прав субъектов персональных данных на период проверки в случае выявления недостоверных персональных данных или неправомерных действий.  <br>
+                    </p><br><br>
+                    <h4>5. ОТВЕТСТВЕННОСТЬ СТОРОН</h4><br><br>
+                    <p>
+                       5.1. Администрация Сайта, не исполнившая свои обязательства, несет ответственность за убытки, понесенные Пользователем в связи с неправомерным использованием персональных данных, в соответствии с законодательством Российской Федерации. <br>
+                       5.2. В случае утраты или разглашения конфиденциальной информации Администрация Сайта не несет ответственности, если данная конфиденциальная информация: <br>
+                       5.2.1. Стала публичным достоянием до ее утраты или разглашения. <br>
+                       5.2.2. Была получена от третьей стороны до момента ее получения Администрацией Сайта. <br>
+                       5.2.3. Была разглашена с согласия Пользователя. <br>
+                    </p><br>
+                    <h4>6. РАЗРЕШЕНИЕ СПОРОВ</h4><br>
+                    <p>
+                       6.1. До обращения в суд с иском по спорам, возникающим из отношений между Пользователем Сайта и Администрацией Сайта, обязательным является предъявление претензии (письменного предложения о добровольном урегулировании спора). <br>
+                       6.2. Получатель претензии в течение 14 календарных дней со дня получения претензии письменно уведомляет заявителя претензии о результатах рассмотрения претензии. <br>
+                       6.3. При недостижении соглашения спор будет передан на рассмотрение в суд в соответствии с действующим законодательством Российской Федерации. <br>
+                       6.4. К настоящей Политике конфиденциальности и отношениям между Пользователем и Администрацией Сайта применяется действующее законодательство Российской Федерации. <br>
+                    </p><br>
+                    <h4>7. ДОПОЛНИТЕЛЬНЫЕ УСЛОВИЯ</h4><br>
+                    <p>
+                       7.1. Администрация Сайта вправе вносить изменения в настоящую Политику конфиденциальности без согласия Пользователя. <br>
+                       7.2. Новая Политика конфиденциальности вступает в силу с момента ее размещения на Сайте, если иное не предусмотрено новой редакцией Политики конфиденциальности. <br>
+                       7.3. Все предложения или вопросы по настоящей Политике конфиденциальности следует сообщать по электронному адресу <a href="#">__________</a> <br>
+                       7.4. Действующая Политика конфиденциальности размещена на странице по адресу: <a href="#" target="_blank">_________</a> 
+                    </p>
+                 </div>
+           
+        </div>
+    </div>
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="lib/slick/slick.min.js"></script>
     <script src="lib/relax/rellax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
-
+    
 </body>
 
 </html>
