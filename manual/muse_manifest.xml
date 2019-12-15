@@ -1,0 +1,39 @@
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="1.by" resolutions="1x" timestamp="1576065613467">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="4021915495" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="manual.pdf" crc="3927146327" seo="true" mt="1576064119000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
+    <file name="museutils.js" crc="3803043152" ref="phone>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
+    <file name="museconfig.js" crc="380897831" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="phone>index:index"/>
+    <file name="require.js" crc="4157109226" ref="phone>index:index"/>
+  </folder>
+  <folder name="images">
+    <file name="1.png" crc="384741099" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo.png" crc="208712766" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pdf-(2).svg" crc="3941654653" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="pdf (2)_poster_.png" crc="3970833743" ref="phone>index"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="490621430" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="4053211103" seo="true" mt="1576065589583" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="4226389458" seo="true" mt="1576065410948" redirect="true"/>
+</manifest>
